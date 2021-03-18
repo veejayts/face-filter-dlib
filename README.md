@@ -13,5 +13,6 @@ Test script shows all the points plotted and each step of the application of mas
 ## Run test script
 `python test.py`
 
+### Credits
 Cooling glasses asset by:
 <a href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a>
