@@ -52,8 +52,8 @@ while True:
         cooler_area_gray = cv2.cvtColor(cooler, cv2.COLOR_BGR2GRAY)
         _, cooler_mask = cv2.threshold(cooler_area_gray, 25, 255, cv2.THRESH_BINARY_INV)
 
-        cv2.imshow('cooler area', cooler_area)
         cv2.imshow('cooler pic', cooler)
+        cv2.imshow('cooler area', cooler_area)
         cv2.imshow('cooler mask', cooler_mask)
 
         # Taking bitwise AND to remove all empty space in the cooler image mask
